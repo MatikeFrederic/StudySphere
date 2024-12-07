@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Groups</title>
+    <link rel="stylesheet" href="view_groups.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contacts">Contacts</a></li>
+                <li><a href="/create_group.html">Create Group</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2 class="text-center">Groups</h2>
+            <div id="groupsList" class="groups-list"></div>
+            <div class="pagination">
+                <button id="prevBtn" class="btn" onclick="prevPage()">Previous</button>
+                <span id="pageInfo"></span>
+                <button id="nextBtn" class="btn" onclick="nextPage()">Next</button>
+            </div>
+        </div>
+    </main>
+    <script src="view_groups.js"></script>
+</body>
+</html>

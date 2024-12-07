@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Group Registration</title>
+  <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Join StudyConnect</h1>
+    <form id="registrationForm">
+      <label for="name">First Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="surname">Last Name:</label>
+      <input type="text" id="surname" name="surname" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="level">Current Level of Study:</label>
+      <select id="level" name="level" required>
+        <option value="highschool">High School</option>
+        <option value="undergraduate">Undergraduate</option>
+        <option value="postgraduate">Postgraduate</option>
+      </select>
+
+      <label for="goals">Goals for Joining:</label>
+      <textarea id="goals" name="goals" rows="4" placeholder="Write your goals here..." required></textarea>
+<p>Already have an Account? <a href="login.html">Log in</a></p>
+      <button type="button" onclick="submitForm()"onclick="window.location.href='studyconnect_home.html'">Submit</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

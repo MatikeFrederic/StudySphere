@@ -1,0 +1,121 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8dede;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.home-banner {
+    width: 50%;
+    max-width: 100px;
+    margin: 0 ;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px;
+    font-size: medium;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .tagline p {
+    margin: 0;
+    font-size: 12px;
+}
+
+header .header-icons a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    height: calc(100vh - 320px);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px dashed #4CAF50;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.schedule-meeting {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 16px;
+    border: 2px dashed #4CAF50;
+    width: 80%;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer .footer-section h3 {
+    margin: 0 0 5px;
+}
+
+a.link-button {
+    text-decoration: none;
+    background-color: blue;
+    padding: 15px;
+    color: white;
+}
+
+a.link-button:hover {
+    text-decoration: none;
+opacity: 0.7;
+}

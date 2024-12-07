@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Study Group</title>
+    <link rel="stylesheet" href="create_group.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h2 class="text-center">Create Study Group</h2>
+            <div class="form-group">
+                <label for="groupName">Group Name:</label>
+                <input type="text" id="groupName" placeholder="Enter group name">
+            </div>
+            <div class="form-group">
+                <label for="groupType">Group Type:</label>
+                <select id="groupType">
+                    <option value="public">Public</option>
+                    <option value="private">Private</option>
+                </select>
+            </div>
+            <button class="btn" onclick="createGroup()">Create Group</button>
+            <div id="groupCode" class="group-code" style="display: none;"></div>
+        </div>
+    </main>
+    <script src="create_group.js"></script>
+</body>
+</html>
